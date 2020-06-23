@@ -1,4 +1,4 @@
-# MMCNN: A Multi-branch Multi-scale Convolutional Neural Network for Motor Imagery Classification
+# ECML-PKDD 2020
 
 This repository is the official implementation of MMCNN: A Multi-branch Multi-scale Convolutional Neural Network for Motor Imagery Classification.
 
@@ -23,8 +23,22 @@ pip install -r requirements.txt
 ## Dataset and Data Preparation
 We Evaluated our model using [BCI Competition IV 2a and 2b dataset](http://www.bbci.de/competition/iv/#dataset2a) and we have cut the main part of the data which have been transformed to the .npy file.
 
-
+## Files Information
+#### Dataprocess.py
+This file is used to load datasets and augment data.
+#### MMCNN_model.py
+This file is used to implement the functions in the model.
+#### Evaluation.py
+This file is used to evaluate the model.
+#### main.py
+The main file to run the model.
 ## Training And Evaluation
+
+We conducted experiments under
+
+- python 3.7.3
+- tensorflow 1.13.1
+
 
 To train the model(s) in the paper, run this command:
 
