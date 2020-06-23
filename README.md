@@ -1,7 +1,8 @@
 # ECML-PKDD 2020
 
 This repository is the official implementation of MMCNN: A Multi-branch Multi-scale Convolutional Neural Network for Motor Imagery Classification.
-
+ * The Model architecture
+  ![Alt text](/image/MMCNN.png)  
 
 ## Requirements
 
@@ -38,7 +39,7 @@ We conducted experiments under
 
 - python 3.7.3
 - tensorflow 1.13.1
-
+- kaggle gpu
 
 To train the model(s) in the paper, run this command:
 
@@ -55,3 +56,7 @@ a centain one subject,you can change in the main.py file.
 ## Results
 
 Our model achieves the following performance :
+* The Performance on dataset 2a
+  ![Alt text](/image/2a.png)  
+* The Performance on dataset 2b
+  ![Alt text](/image/2b.png)  
